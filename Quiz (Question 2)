@@ -21,7 +21,7 @@ public class Car {
 	   public static void main(String args[]){
 		   Car obj1 = new Car();
 		  
-		   // resume1 obj2 = new resume1("Khairin", 22);
+		   // Car obj2 = Car("Car is running",Proton X70);
 		   	
 		System.out.println(obj1.car+" "+obj1.brand);
 		
