@@ -1,31 +1,32 @@
-public class Car {
-	
+//QUIZ 1 (Question 2) - Write a constructor in the Car class given below that initializes the brand class field with the string “Proton X70”.
 
-	    String brand;
-	    String car;
-		
-	   // First object default constructor
-	   Car(){
-		this.brand="Proton X70";
-		this.car="Car is running";
-		
-	   }
-		
-	   //Parameterized constructor / constructor with parameter
-	   Car(String n,int a){
-		this.brand="Proton X70";
-		this.car="Car is running";
-				
-	   }
-	  
-	   public static void main(String args[]){
-		   Car obj1 = new Car();
-		  
-		   // Car obj2 = Car("Car is running",Proton X70);
-		   	
-		System.out.println(obj1.car+" "+obj1.brand);
-		
-		
-		
-	   }
-	}
+//Call the run() method and getBrand() method in the main method and store the value of the brand in a variable, and print the value.
+
+
+
+public class Car {
+    
+    String Brand;  //variable
+
+//constructor 
+    public Car() {
+        this.Brand="Proton x70"; }
+
+//write method getBrand 
+    public String getBrand() {
+    return Brand;      
+}   
+    void run() {
+	System.out.println("Car is running...");
+}
+
+public static void main(String[] args) {
+
+			//Call method getBrand and print the value
+                      
+                       Car proton = new Car();
+                       String Brand = proton.getBrand();
+                       System.out.println(Brand);                     
+}   
+}
+
